@@ -20,11 +20,13 @@ Key Changes and Enhancements
 
 Original Project and Acknowledgments
 
-This project is based on contributions from various sources. Notably, the M5Stack-Core2-MediaPlayer project served as the foundation, from bwbguard and other community members. 
+This project is based on contributions from various sources. Notably, the M5Stack-Core2-MediaPlayer project served as the foundation by bwbguard and other community members.
 
-- Original Project Source: [GitHub Repository](https://github.com/bwbguard/M5Stack-Core2-MediaPlayer)
+Modified from: M5Stack Core2 Web Media Player by bwbguard
+- Project Source: [GitHub Repository](https://github.com/bwbguard/M5Stack-Core2-MediaPlayer)
+- Based on: m5StreamTest Version 2020.12b by tommyho510@gmail.com
 
-The **ESP8266Audio** library powers the core functionality for media streaming.
+The ESP8266Audio library powers the core functionality for media streaming.
 
 Future Plans
 
