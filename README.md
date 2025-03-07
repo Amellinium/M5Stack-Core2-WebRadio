@@ -31,5 +31,6 @@ Future Plans
 - Improve On-Screen Keyboard: Work on making the keyboard input more accurate.
 - Bluetooth Support: Implement Bluetooth streaming.
 - VU Meter Optimization: Remove the VU meter due to hardware limitations.
+- Loading Stations from SD Card: Load stations from the stations_list file on the SD card.
 
 Enjoy the updates.
