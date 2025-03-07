@@ -1,6 +1,9 @@
 /*
-   March 07, 2025 - Modified with 2px vertical strips between buttons, soft blue buttons, metadata moved to grey area
+   March 07, 2025 
+   M5Stack-Core2-WebRadio-v0.1.1
    Based on m5StreamTest Version 2020.12b by tommyho510@gmail.com
+   and M5Stack Core2 Web Media Player modified from other sources 
+   by bwbguard
    Board: M5StackCore2 (esp32)
    Required Libraries: ESP8266Audio, Preferences
 */
