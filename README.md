@@ -21,7 +21,7 @@ Original Project and Acknowledgments
 
 This project is based on contributions from various sources. Notably, the M5Stack-Core2-MediaPlayer project served as the foundation, from bwbguard and other community members. 
 
-- Original Project Source: [GitHub Repository](https://github.com/your-link)](https://github.com/bwbguard/M5Stack-Core2-MediaPlayer)
+- Original Project Source: [GitHub Repository](https://github.com/bwbguard/M5Stack-Core2-MediaPlayer)
 
 The **ESP8266Audio** library powers the core functionality for media streaming.
 
