@@ -6,7 +6,7 @@ M5Stack Core2 Web Radio Player
 ![1](https://github.com/user-attachments/assets/602b2a14-3139-4a75-8280-cf559b150c34)
 ![2](https://github.com/user-attachments/assets/44867758-ee5f-48ce-82d0-f0f5abc280a4)
 
-This is my uversion of the web radio player for the M5Stack Core2. It’s based on an existing project but has been enhanced with new features and improved functionality.
+This is a Web radio player for the M5Stack Core2. It’s based on an existing project but has been enhanced with new features and improved functionality.
 
 Key Changes and Enhancements
 
