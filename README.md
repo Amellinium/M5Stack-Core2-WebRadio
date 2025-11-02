@@ -4,9 +4,9 @@ Current Version: v0.3.3
 
 M5Stack Core2 Web Radio Player
 
-Images:
-https://github.com/user-attachments/assets/602b2a14-3139-4a75-8280-cf559b150c34
-https://github.com/user-attachments/assets/44867758-ee5f-48ce-82d0-f0f5abc280a4
+![1](https://github.com/user-attachments/assets/602b2a14-3139-4a75-8280-cf559b150c34)
+![2](https://github.com/user-attachments/assets/44867758-ee5f-48ce-82d0-f0f5abc280a4)
+
 
 Description:
 This is a Web Radio Player for the M5Stack Core2 (ESP32).
@@ -27,13 +27,19 @@ Key Features:
   Wi-Fi signal, and battery levels.
 - Smooth Streaming: 256 KB buffer for uninterrupted playback even on weak Wi-Fi.
 
-Station List File Format:
-- File: stations_list.txt (root of SD card)
-- Format: Station Name,Stream URL
-- Example:
+SD Card Structure Example:
+```
+SD_ROOT/
+├─ stations_list.txt       # List of stations (Station Name,URL)
+```
+
+stations_list.txt Format:
+```
+Station Name,Stream URL
+Example:
 BBC Radio 1,http://bbc.co.uk/radio1.mp3
 Jazz FM,http://stream.jazzfm.com/live
-- Sample file included with release.
+```
 
 Required Libraries:
 - M5Core2 (Core2 touchscreen, buttons, AXP192 power)
