@@ -1,33 +1,53 @@
-# M5Stack-Core2-WebRadio
+M5Stack-Core2-WebRadio
 Web Radio for M5Stack Core2
+Current Version: v0.3.3
 
 M5Stack Core2 Web Radio Player
 
-![1](https://github.com/user-attachments/assets/602b2a14-3139-4a75-8280-cf559b150c34)
-![2](https://github.com/user-attachments/assets/44867758-ee5f-48ce-82d0-f0f5abc280a4)
+Images:
+https://github.com/user-attachments/assets/602b2a14-3139-4a75-8280-cf559b150c34
+https://github.com/user-attachments/assets/44867758-ee5f-48ce-82d0-f0f5abc280a4
 
-This is a Web radio player for the M5Stack Core2. It’s based on an existing project but has been enhanced with new features and improved functionality.
+Description:
+This is a Web Radio Player for the M5Stack Core2 (ESP32).
+It is based on m5StreamTest Version 2020.12b by tommyho510@gmail.com
+and modified from other sources by bwbguard.
+The project adds new features, interface improvements, and better audio handling.
 
-Key Changes and Enhancements
+Key Features:
+- UI Improvements: Buttons rearranged for a modern and intuitive layout.
+- Mute Button: Added a dedicated mute button on the bottom row.
+- Wi-Fi Management: Scan for networks, enter password via touchscreen,
+  and save credentials for automatic reconnection.
+- Load Stations from SD Card: Reads up to 50 stations from stations_list.txt
+  in root of SD card.
+- Station Navigation: Switch stations up/down via touchscreen or physical buttons.
+- Volume Control: Adjustable via buttons or touchscreen.
+- Real-Time Display: Shows station info, artist/title metadata, volume,
+  Wi-Fi signal, and battery levels.
+- Smooth Streaming: 256 KB buffer for uninterrupted playback even on weak Wi-Fi.
 
-- Revamped UI: Improvements to the user interface, providing a more modern and intuitive design.
-- Station Navigation: Added functionality for seamless switching between radio stations (up and down).
-- Volume Control: Integrated volume control to increase or decrease the audio level.
-- Wi-Fi Scanning & Password Entry: The app now allows you to scan for available Wi-Fi networks and enter your Wi-Fi password. The device stores the password for easy reconnection.
-- Bluetooth Button: Currently inactive.
+Station List File Format:
+- File: stations_list.txt (root of SD card)
+- Format: Station Name,Stream URL
+- Example:
+BBC Radio 1,http://bbc.co.uk/radio1.mp3
+Jazz FM,http://stream.jazzfm.com/live
+- Sample file included with release.
 
-Original Project and Acknowledgments
+Required Libraries:
+- M5Core2 (Core2 touchscreen, buttons, AXP192 power)
+- ESP8266Audio by Earle F. Philhower, III, version 2.0.0 (for MP3 decoding & streaming)
+- ESP32 by Espressif Systems, version 2.0.17
+- WiFi (station mode)
+- Preferences (store Wi-Fi credentials)
+- SD (load stations list)
+- Free_Fonts.h (included with M5Core2 examples)
 
-This project is based on contributions from various sources. Notably, the M5Stack-Core2-MediaPlayer project served as the foundation by bwbguard and other community members.
-
-Modified from: M5Stack Core2 Web Media Player by bwbguard
-- Project Source: [GitHub Repository](https://github.com/bwbguard/M5Stack-Core2-MediaPlayer)
+Original Project and Acknowledgments:
+- Modified from M5Stack Core2 Web Media Player by bwbguard
+- Project Source: https://github.com/bwbguard/M5Stack-Core2-MediaPlayer
 - Based on: m5StreamTest Version 2020.12b by tommyho510@gmail.com
+- Core functionality powered by ESP8266Audio
 
-The ESP8266Audio library powers the core functionality for media streaming.
-
-Future Plans
-
-- Loading Stations from SD Card: Load stations from the stations_list file on the SD card.
-
-Enjoy the updates.
+Enjoy!
